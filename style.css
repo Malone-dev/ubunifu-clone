@@ -1,0 +1,326 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+height: 100vh;
+width: 100%;
+background-image: url(/images/main8.jpg
+);
+}
+
+.Navbar{
+ height: 15%; 
+ width: 100%;
+ display: flex;
+ /* background-color: aqua; */
+}
+
+.images{
+height: 100%;
+width: 20%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.images img{
+    height: 50%;
+    width: 50%;
+}
+
+.list{
+    display: flex;
+    width: 50%;
+    display: flex;
+   justify-content: flex-end;
+   margin-top: 1%;
+   color: white;
+
+}
+
+.list li{
+    list-style: none;
+   margin: 20px;
+}
+
+.list button{
+height: 25px;
+width: 70%;
+border-radius: 20px;
+color: black;
+background-color: white;
+margin-top: 3%;
+margin-left: 35px;
+border: none;
+}
+
+.container{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main img{
+    background-size: cover;
+}
+
+.container h1{
+    color: white;
+  font-size: 80px;
+  
+}
+.container p{
+    color: whitesmoke;
+    font-size: 17px;
+ 
+}
+.container button{
+    height: 40px;
+width: 20%;
+border-radius: 20px;
+color: white;
+background-color: rgb(196, 39, 39);
+border: none;
+margin-top: 20px;
+}
+
+
+/* page2 */
+
+.page2{
+height: 100vh;
+width: 100%;
+display: flex;
+}
+
+.karibu{
+height: 100vh;
+width: 30%;
+}
+
+.karibu h6{
+    color: rgb(179, 26, 26);
+   margin-top: 15%;
+}
+
+.karibu h3{
+color: black;
+font-size: 50px;
+}
+
+.karibu p{
+display: flex;
+color: rgba(0, 0, 0, 0.644);
+}
+
+.karibu button{
+    height: 40px;
+width: 70%;
+border-radius: 20px;
+color: white;
+background-color: rgb(65, 65, 214);
+border: none;
+margin-top: 3%;
+}
+
+.containers{
+    height: 100%;
+    width: 30%;
+/* background-color: aqua; */
+}
+
+.pink{
+    height: 40%;
+    width: 80%;
+    background-color: pink;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+
+.pink h6{
+    color: black;
+    font-size: 15px;
+}
+
+.blue{
+    background-color: blue;
+height: 40%;
+width: 80%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.blue h6{
+color: black;
+font-size: 15px;
+}
+
+.containers2{
+    height: 100%;
+    width: 30%;
+}
+
+.green{
+    height: 40%;
+    width: 80%;
+    background-color: rgb(85, 160, 85);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+green h6{
+    color: black;
+    font-size: 15px;}
+
+
+    .yellow{
+        height: 40%;
+        width: 80%;
+background-color: rgb(197, 197, 44);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+    }
+
+    /* page3 */
+
+    .page3{
+      height: 100vh;
+      width: 100%;
+      display: flex;
+    }
+
+   .imageleft{
+    height: 100%;
+    width: 50%;
+background-image: url(
+    /images/left.jpg
+);
+background-size: cover;
+   } 
+
+.paragraph3{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+}
+
+h3{
+color: skyblue;
+font-size: 40px;
+}
+
+.paragraph3 p{
+display: flex;
+color: rgba(0, 0, 0, 0.541);
+}
+
+.paragraph3 button{
+    height: 30px;
+width: 35%;
+border-radius: 20px;  
+color: white;
+background-color: rgb(228, 68, 68);
+border: none;
+margin-right: 200px;
+}
+
+/* page4 */
+
+.page4{
+    height: 100vh;
+    width: 100%;
+background-color: aqua;
+}
+
+.page4 h3{
+    color: rgba(255, 0, 0, 0.808);
+margin-top: 50px;
+font-size: 10px;
+}
+.page4 p{
+    font-size: 40px;
+}
+
+.containers40{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.pic1{ 
+    height: 100%;
+    width: 100%;
+  
+}
+
+.pic1 img{
+    height: 40%;
+    width: 30%;
+}
+
+.pic1 h5{
+    color: skyblue;
+}
+.pic1 p{
+    color: rgba(0, 0, 0, 0.753);
+font-size: 15px;
+}
+
+
+.container40{
+    height: 100%;
+    width: 30%;
+    display: flex;
+}
+
+.picture1{ 
+    height: 100%;
+    width: 100%;
+  
+}
+
+.container4 1{
+height: 100%;
+width: 100%;
+}
+
+.picture2 img{
+    height: 40%;
+    width: 30%;
+}
+
+.picture2 h5{
+    color: skyblue;
+}
+
+.picture2 p{
+    color: rgba(0, 0, 0, 0.753);
+font-size: 15px;
+}
+
